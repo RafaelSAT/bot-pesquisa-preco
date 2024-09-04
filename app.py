@@ -23,7 +23,7 @@ layout = [
 window = sg.Window('Buscar Preço', layout)
 
 edge_options = Options()
-arguments = ['--lang=pt-BR', 'window-size=800,600', '--incognito']
+arguments = ['--lang=pt-BR', 'window-size=1280,960', '--incognito']
 for argument in arguments:
     edge_options.add_argument(argument)
 
